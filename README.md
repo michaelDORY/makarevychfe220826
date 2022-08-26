@@ -11,6 +11,7 @@
 - Enter commands
 ```sh
 git clone https://github.com/michaelDORY/makarevychfe220826.git
+cd chart
 npm i
 npm start
 ```
