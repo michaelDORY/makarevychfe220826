@@ -1,0 +1,15 @@
+.chart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title {
+    text-transform: uppercase;
+}

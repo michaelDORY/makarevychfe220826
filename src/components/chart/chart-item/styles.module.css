@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.label {
+    max-width: 30%;
+}
+
+.bar {
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: var(--border-radius);
+    position: relative;
+    width: 60%;
+}
+
+.activePart {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: var(--secondary-color);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .item {
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+    }
+}

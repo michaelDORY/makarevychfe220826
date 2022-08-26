@@ -1,0 +1,15 @@
+:root {
+    --text-size: 16px;
+    --title-size: 20px;
+
+    --primary-color: #008bc7;
+    --primary-color-light: #8fcbe5;
+    --secondary-color: #fff061;
+    --secondary-color-dark: #d7c200;
+    --bg-color-light: #b4eeff;
+
+    --border-radius: 5px;
+
+    --tablet-bp: 768px;
+    --mobile-bp: 576px;
+}
